@@ -1,0 +1,12 @@
+com\ztsoft\whatsapp_dispatcher\domain\port\in\ProcessMessageUseCase.class
+com\ztsoft\whatsapp_dispatcher\infrastructure\config\KafkaConfig.class
+com\ztsoft\whatsapp_dispatcher\infrastructure\adapter\in\messaging\dto\NotificationEvent.class
+com\ztsoft\whatsapp_dispatcher\infrastructure\adapter\in\messaging\dto\Status.class
+com\ztsoft\whatsapp_dispatcher\infrastructure\adapter\out\client\WhatsappClientAdapter.class
+com\ztsoft\whatsapp_dispatcher\domain\port\out\WhatsappClientPort.class
+com\ztsoft\whatsapp_dispatcher\infrastructure\adapter\in\messaging\WhatsappKafkaListener.class
+com\ztsoft\whatsapp_dispatcher\WhatsappDispatcherApplication.class
+com\ztsoft\whatsapp_dispatcher\application\service\WhatsappService.class
+com\ztsoft\whatsapp_dispatcher\infrastructure\adapter\in\messaging\dto\PhoneNumber.class
+com\ztsoft\whatsapp_dispatcher\domain\records\PhoneNumber.class
+com\ztsoft\whatsapp_dispatcher\domain\model\WhatsappMessage.class
