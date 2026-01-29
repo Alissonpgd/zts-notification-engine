@@ -1,0 +1,23 @@
+server:
+  port: 8080  # Onde o Controller vai escutar
+
+spring:
+  application:
+    name: notification-api # Nome do crachá do microsserviço
+
+  # === 1. Configuração do Banco (O Armazém) ===
+  data:
+    mongodb:
+      # Endereço: Protocolo://Usuario:Senha@Host:Porta/NomeDoBanco
+      # Como vamos rodar local, usaremos o padrão sem senha por enquanto
+      uri: mongodb://localhost:27017/notification_db
+      auto-index-creation: true
+
+  # === 2. Configuração do Kafka (O Correio) ===
+  kafka:
+    bootstrap-servers: localhost:9092 # Onde está o servidor do Kafka
+    producer:
+      # Como transformar a Chave (Key) em bytes? String
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      # Como transformar o Valor (Value) em bytes? JSON
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer

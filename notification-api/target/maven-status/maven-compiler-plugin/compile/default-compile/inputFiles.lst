@@ -1,0 +1,17 @@
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\infrastructure\adapter\out\messaging\dto\NotificationEvent.java
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\infrastructure\config\KafkaConfig.java
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\infrastructure\adapter\in\rest\NotificationRequest.java
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\infrastructure\adapter\out\messaging\NotificationEventAdapter.java
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\infrastructure\adapter\out\persistence\repository\NotificationMongoRepository.java
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\infrastructure\adapter\out\persistence\entity\NotificationEntity.java
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\NotificationApiApplication.java
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\infrastructure\adapter\in\rest\NotificationController.java
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\domain\port\out\NotificationEventPort.java
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\infrastructure\adapter\out\persistence\NotificationPersistenceAdapter.java
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\domain\records\PhoneNumber.java
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\domain\port\in\SendNotificationUseCase.java
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\application\service\NotificationService.java
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\infrastructure\adapter\out\persistence\transform\NotificationPersistenceMapper.java
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\domain\enums\Status.java
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\domain\port\out\NotificationRepositoryPort.java
+C:\Projetos\Treinamentos JAVA\notification-api\src\main\java\com\ztsoft\notification_api\domain\model\Notification.java

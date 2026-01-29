@@ -1,0 +1,17 @@
+com\ztsoft\notification_api\infrastructure\adapter\out\persistence\transform\NotificationPersistenceMapper.class
+com\ztsoft\notification_api\domain\model\Notification.class
+com\ztsoft\notification_api\domain\port\out\NotificationEventPort.class
+com\ztsoft\notification_api\infrastructure\adapter\in\rest\NotificationRequest.class
+com\ztsoft\notification_api\domain\records\PhoneNumber.class
+com\ztsoft\notification_api\domain\port\out\NotificationRepositoryPort.class
+com\ztsoft\notification_api\infrastructure\adapter\out\messaging\NotificationEventAdapter.class
+com\ztsoft\notification_api\domain\enums\Status.class
+com\ztsoft\notification_api\infrastructure\adapter\out\persistence\NotificationPersistenceAdapter.class
+com\ztsoft\notification_api\domain\port\in\SendNotificationUseCase.class
+com\ztsoft\notification_api\infrastructure\adapter\out\persistence\entity\NotificationEntity.class
+com\ztsoft\notification_api\infrastructure\adapter\out\messaging\dto\NotificationEvent.class
+com\ztsoft\notification_api\NotificationApiApplication.class
+com\ztsoft\notification_api\infrastructure\config\KafkaConfig.class
+com\ztsoft\notification_api\infrastructure\adapter\in\rest\NotificationController.class
+com\ztsoft\notification_api\application\service\NotificationService.class
+com\ztsoft\notification_api\infrastructure\adapter\out\persistence\repository\NotificationMongoRepository.class
