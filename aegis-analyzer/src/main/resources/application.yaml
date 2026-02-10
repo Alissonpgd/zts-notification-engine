@@ -1,0 +1,36 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: analyzer-group-v3
+
+  kafka:
+    bootstrap-servers: localhost:9092 # Onde está o servidor do Kafka
+    producer:
+      # Como transformar a Chave (Key) em bytes? String
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      # Como transformar o Valor (Value) em bytes? JSON
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    consumer:
+      group-id: analyzer-group
+      auto-offset-reset: earliest
+      # Aqui entram os tradutores (Key e Value Deserializer)
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        max.poll.interval.ms: 300000
+        spring:
+          json:
+            trusted:
+              packages: "*" # O "Visto de Confiança"
+
+  ai:
+    ollama:
+      base-url: http://localhost:11434  # Onde o Ollama mora
+      chat:
+        options:
+          model: tinyllama
+          num-ctx: 512
+          temperature: 0.05
+          top-p: 0.8
+          timeout: 120s
