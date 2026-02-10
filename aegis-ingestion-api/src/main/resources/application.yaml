@@ -1,0 +1,14 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: aegis-ingestion-api
+
+    # === 2. Configuração do Kafka (O Correio) ===
+  kafka:
+    bootstrap-servers: localhost:9092 # Onde está o servidor do Kafka
+    producer:
+        # Como transformar a Chave (Key) em bytes? String
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+        # Como transformar o Valor (Value) em bytes? JSON
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
