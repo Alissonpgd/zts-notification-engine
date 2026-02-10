@@ -1,5 +1,6 @@
 com\ztsoft\whatsapp_dispatcher\domain\port\in\ProcessMessageUseCase.class
 com\ztsoft\whatsapp_dispatcher\infrastructure\config\KafkaConfig.class
+com\ztsoft\whatsapp_dispatcher\infrastructure\adapter\in\messaging\dto\RetentionDecisionEvent.class
 com\ztsoft\whatsapp_dispatcher\infrastructure\adapter\in\messaging\dto\NotificationEvent.class
 com\ztsoft\whatsapp_dispatcher\infrastructure\adapter\in\messaging\dto\Status.class
 com\ztsoft\whatsapp_dispatcher\infrastructure\adapter\out\client\WhatsappClientAdapter.class

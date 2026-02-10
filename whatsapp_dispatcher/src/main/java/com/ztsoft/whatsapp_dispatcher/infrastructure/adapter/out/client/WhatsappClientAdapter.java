@@ -13,7 +13,7 @@ public class WhatsappClientAdapter implements WhatsappClientPort {
 
     @Override
     public Mono<Void> sendMessage(WhatsappMessage message) {
-        log.info("ENVIANDO WHATSAPP PARA: {} ", message.getDestination().number());
+        log.info("🚨 [AI DECISION] ENVIANDO WHATSAPP ESTRATÉGICO: " + message.getContent());
         return Mono.empty();
     }
 }
